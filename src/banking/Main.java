@@ -15,10 +15,9 @@ public class Main {
         System.out.println("----------------");
 
         CurrentAccount ca = new CurrentAccount("789999990" , 4000);
-        ca.withdraw(2000);
-
         System.out.println(ca);
-        ca.withdraw(1501);
+         ca.withdraw(3500);
+//        ca.applyOverdraft(1501);
         System.out.println(ca);
     }
 }
