@@ -2,7 +2,7 @@ package session124.company;
 
 public class Company {
     private  String name;
-    private  Employee [] employees;
+    private  Employee [] employees; // aggregation
 
     public Company() {
     }
