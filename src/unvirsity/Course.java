@@ -63,8 +63,6 @@ public class Course {
             }
         }
     }
-
-
     public  void removeStudent (int studentID){
         for (int i = 0; i < studentsEnrolled.length ; i++) {
             if (studentsEnrolled[i].getStudentID() == studentID ){

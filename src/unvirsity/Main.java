@@ -17,7 +17,7 @@ public class Main {
 //        c1.setStudentsEnrolled(students);
         c1.addStudent(s1);
         c1.addStudent(s2);
-1
+
         Course [] courses ={c1 , c2 , c3 ,c4};
 
         Department department = new Department("Devlopment" ,100 , p);
